@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+nav{
+    width: 100vw;
+    height: auto;
+    background-color: black
+}
+.logo h1{
+    font-size: 28px;
+}
+.navbar{
+    margin: auto;
+    color :white;
+    width: 50%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 30px;
+}
+
+.navbar li{
+    font-size: 17px;
+    list-style: none;
+    
+}
+
+.navbar a{
+    transition: .7s all;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-icons{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.navbar button{
+    padding: 10px 20px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid #5758e0;
+    font-size: 16px;
+}
+.navbar button:hover{
+    background-image: linear-gradient(to right, #5758e0, rgb(62, 201, 251));
+    cursor: pointer;
+}
+.navbar button i {
+    margin-right: 12px;
+}
+
+.social i{
+    margin-left: 15px;
+    font-size: 22px;
+    transition: .5s all;
+    cursor: pointer;
+}
+
+.navbar li a:hover{
+    color: #5758e0;;
+    cursor: pointer;
+}
+
+.social i:hover:nth-child(1){
+    color:  #3b5998;
+}
+.social i:hover:nth-child(2){
+    color: #fa7e1e;
+}
+.social i:hover:nth-child(3){
+    color:  #00aff0 ;
+}
